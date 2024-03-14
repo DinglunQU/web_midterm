@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>F L E U R__de__M O I</title>
+<style>
+  body {
+    background-color: #fff;
+    font-family: 'Avenir', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+  }
+  .project-title {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .project-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .project-item:hover {
+    transform: translateY(-5px);
+  }
+  .project-item img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  .project-item:hover img {
+    transform: scale(1.1);
+  }
+  .project-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  .back-to-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .back-to-home:hover {
+    background-color: #000;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>OUR PAST PROJECTS</h1>
+  <div class="project-title">F L E U R__de__M O I</div>
+  <div class="project-grid">
+    <div class="project-item">
+      <img src="6.jpg" alt="Product 6">
+      <div class="project-description">PROJECT DEE - 2018</div>
+    </div>
+    <div class="project-item">
+      <img src="7.jpg" alt="Product 7">
+      <div class="project-description">PROJECT RENAISSANCE - 2019</div>
+    </div>
+    <div class="project-item">
+      <img src="8.jpg" alt="Product 8">
+      <div class="project-description">PROJECT SPECTRE - 2020</div>
+    </div>
+    <div class="project-item">
+      <img src="9.jpg" alt="Product 9">
+      <div class="project-description">PROJECT BOAT TAIL - 2022</div>
+    </div>
+    <div class="project-item">
+      <img src="10.jpg" alt="Product 10">
+      <div class="project-description">PROJECT SPRING RAIN - 2024</div>
+    </div>
+  </div>
+  <a href="index.html" class="back-to-home">BACK TO HOME PAGE</a>
+</div>
+</body>
+</html>
